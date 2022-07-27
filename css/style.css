@@ -1,0 +1,172 @@
+
+
+body{
+  margin: 0;
+  background-color: #cccccc;
+}
+
+table{
+  border-spacing: 0;
+}
+
+td{
+  padding: 0;
+}
+
+img{
+  border: 0;
+}
+
+.wrapper{
+  width: 100%;
+  padding-bottom: 60px;
+  table-layout: fixed;
+  background-color: #cccccc;
+}
+
+
+.main{
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-spacing: 0;
+  color: #4a4a4a;
+}
+
+a,a:hover,a:focus{
+  color: white;
+  text-decoration: none;
+}
+
+.button{
+  background-color: #289dcf;
+  border: none;
+  outline: none;
+  padding:10px 15px;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+
+
+.two-columns{
+  text-align: center;
+  font-size: 0;
+}
+
+.two-columns .column{
+  width: 100%;
+  max-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.column i{
+  font-size: 30px;
+  color: black;
+  padding-right: 11px;
+}
+
+
+.column .fa-facebook {
+  color: #1877f2;
+}
+
+.column .fa-linkedin {
+  color: #0077b5;
+}
+
+.column .fa-youtube {
+  color: #ff0000;
+}
+
+.column .fa-twitter-square {
+  color: #1da1f2;
+}
+
+
+.three-columns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.three-columns .column{
+  padding: 23px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.three-columns .column i{
+  font-size: 60px;
+  color: #1da1f2;
+  padding: 0;
+}
+
+@media (max-width:500px){
+  .three-columns{
+    flex-direction: column;
+  }
+}
+
+
+.two-columnsend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:560px){
+  .two-columnsend{
+    flex-direction: column;
+  }
+
+  .two-columnsend .content{
+    text-align: left;
+  }
+
+  .two-columnsend .text{
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+.footer-content i{
+  font-size: 22px;
+  padding-right: 10px;
+  transition: .6s;
+}
+
+
+
+.footer-content .fa-facebook:hover {
+  color: #1877f2;
+}
+
+.footer-content .fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.footer-content .fa-youtube:hover {
+  color: #ff0000;
+}
+
+.footer-content .fa-twitter-square:hover {
+  color: #1da1f2;
+}
